@@ -1,0 +1,236 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    height: 250px;
+    background-color: rgb(197, 212, 222);
+
+}
+
+header div img {
+    height: 180px;
+    margin: 15px 15px 10px 50px;
+}
+header div h1{
+    font-size: 4rem;
+    margin: 10px 15px 15px 70px;
+    display: inline-flex;
+    
+}
+
+
+header nav div a:hover{
+    background-color: rgb(163, 179, 242);
+    color: whitesmoke;
+    padding: 0,8rem;
+    box-shadow: 2px 1px 6px rgb(60, 60, 60);
+    text-shadow: 1px 1px 6px rgb(60, 60, 60);
+    transform: scale(1,5px);
+
+}
+   
+   /*estilo del main*/
+
+
+   main{
+    background-color: rgb(208, 214, 239);
+
+   }
+.explicacion{
+    display: grid;
+    grid-template-columns: 20% 60% 20%; 
+    
+    
+}
+.titulo2{
+    text-align: center;
+    padding: 90px 0px 0px 0px;
+    font-size: 30px;
+}
+.parrafo2{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}   
+
+
+
+
+/*galeria de mis imagenes*/
+.galeriaInicio{ 
+    background-color:  rgb(208, 214, 239);
+    text-align: center;
+    margin: 1px;
+    font-size: 30px;
+    
+}
+main div div img{
+    height: 200px;
+    margin: 30px;
+}
+
+/*estilo del footer*/
+footer{
+    background-color: rgb(110, 118, 141)
+}
+footer div ul li{
+    display: inline-block;
+    margin: 50px 70px 0px 70px;
+    text-align: center;    
+}
+
+footer ul li{
+    display: inline-block;
+   margin: 30px 100px 15px 100px;
+}
+footer ul li img {
+    height: 35px;
+    display: block;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+footer h3{
+    text-align: center;
+margin:0px;
+background-color:rgb(92, 99, 119) ;
+}
+
+/*formato de cursos.html*/
+
+.cursoBasico{
+    text-align: left;
+    display: block;
+    padding: 20px 600px 20px 20px;
+    border: dashed rgb(215, 232, 245);
+    font-size: 20px;
+}
+.cursoRetrato{
+    text-align: right;
+    display: block;
+    padding: 20px 20px 20px 600px;
+    border: dashed rgb(215, 232, 245);
+    font-size: 20px;
+}
+
+.cursoMarmol{
+    text-align: left;
+    display: block;
+    padding: 20px 600px 20px 20px;
+    border: dashed rgb(215, 232, 245);
+    font-size: 20px;
+}
+.cursoMicro{
+    text-align: right;
+    display: block;
+    padding: 20px 20px 20px 600px;
+    border: dashed rgb(215, 232, 245);
+    font-size: 20px;
+}
+main h3 a{
+    display: inline;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+/*fomato de quienes somos.html*/
+
+.somos{
+    display: grid;
+    grid-template-columns:50% 50% ;
+    grid-template-rows: 50% 50%;
+
+    }
+   
+
+.presentacion{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    padding: 20px 70px 70px 70px;
+}
+div img{
+    height: 200px;
+    margin: 30px;
+}
+.mosaicoPorque{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    padding: 20px 70px 70px 70px;
+}
+.imgMosaico{
+    height: 400px;
+    margin: 30px;
+}
+
+/*fomrato de contacto.html*/
+
+
+
+.formulario{
+    display: inline;
+    padding: 40px 200px 40px 40px;
+    font-size: 20px;
+
+    
+}
+.formInfo{
+margin: 15px;
+width: 500px;
+}
+.formInfo1{
+    margin: 15px;
+    height: 200px;
+    width: 800px;
+
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 20px ;
+}
+main form fieldset div div input:hover{
+    background-color: rgb(163, 179, 242);
+    color: whitesmoke;
+    padding: 0,8rem;
+    box-shadow: 2px 1px 6px rgb(60, 60, 60);
+    text-shadow: 1px 1px 6px rgb(60, 60, 60);
+    transform: scale(1,5px);
+}
+
+/*formato de producto.thml*/
+
+.buscador{
+    margin: 1rem;
+    
+}
+
+
+.tituloProducto{
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+.productoRetratos{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    
+}
+.card{
+    margin: 20px;
+    background-color:  rgb(237, 244, 250);;
+}
+.card-img-top{
+    height: 350px;
+    margin: -1px;    
+}
